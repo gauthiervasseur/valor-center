@@ -1,0 +1,25 @@
+/* VALOR Innovation Center — color tokens (palette derived from dts-accelerator.com) */
+:root {
+  /* base */
+  --green-950: #0A2A24;
+  --green-900: #0E3A32;
+  --green-800: #155045;
+  --accent-500: #6FD383;
+  --accent-400: #8BE39B;
+  --ink: #0F1713;
+  --paper: #FFFFFF;
+  --mist: #EDF3EF;
+  --stone: #9DB0A7;
+  /* semantic */
+  --brand-primary: var(--green-900);
+  --brand-deep: var(--green-950);
+  --brand-accent: var(--accent-500);
+  --surface-page: var(--paper);
+  --surface-card: var(--mist);
+  --surface-inverse: var(--green-950);
+  --text-primary: var(--ink);
+  --text-secondary: #4A5A53;
+  --text-inverse: var(--paper);
+  --text-accent: var(--accent-500);
+  --border-subtle: #D5E0DA;
+}
