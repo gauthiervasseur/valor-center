@@ -1,4 +1,4 @@
-# VALOR Defence Innovation Center — Brand Package
+# VALOR Defence Innovation Center : Brand Package
 
 Final production artifacts only. No drafts, no style explorations.
 
