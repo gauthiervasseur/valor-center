@@ -130,6 +130,12 @@ img { max-width: 100%; display: block; }
 
 /* Cards grid */
 .cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 44px; }
+@media (min-width: 901px) {
+  .cards-grid { grid-template-columns: repeat(6, 1fr); }
+  .cards-grid .card { grid-column: span 2; }
+  .cards-grid .card:nth-child(4) { grid-column: 2 / span 2; }
+  .cards-grid .card:nth-child(5) { grid-column: 4 / span 2; }
+}
 .card { background: var(--mist); border: 1px solid var(--border-subtle); border-radius: 14px; padding: 28px; text-align: left; }
 .card .icon-chip {
   width: 42px; height: 42px; border-radius: 10px; background: var(--green-950);
