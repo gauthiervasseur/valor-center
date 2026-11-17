@@ -1,1 +1,4 @@
 .DS_Store
+
+# Print-ready files (business cards, etc.) — kept out of git
+print/
